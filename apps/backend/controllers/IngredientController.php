@@ -11,12 +11,15 @@ class IngredientController extends ControllerBase
     public function initialize()
     {
         $this->view->setTemplateAfter('layout');
+        $this->tag->setTitle('bRecipes');
     }
 
     public function IndexAction()
     {
         $ingredients = Ingredient::find();
+        $this->tag->prependTitle('Index of Ingredients - ');
         return $this->view->setVars(['ingredients' => $ingredients->toArray()]);
+
     }
 
     public function CreateAction()

@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c120372c-d5dc-47b1-bc78-6c87627a4489" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/backend/views/layouts/layout.volt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/views/admin/panel.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/views/admin/showlogin.volt.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/views/admin/users.volt.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/backend/controllers/AdminController.php" afterPath="$PROJECT_DIR$/apps/backend/controllers/AdminController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/backend/controllers/IngredientController.php" afterPath="$PROJECT_DIR$/apps/backend/controllers/IngredientController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/backend/controllers/MenuController.php" afterPath="$PROJECT_DIR$/apps/backend/controllers/MenuController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/backend/controllers/RecipeController.php" afterPath="$PROJECT_DIR$/apps/backend/controllers/RecipeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/backend/views/admin/panel.volt" afterPath="$PROJECT_DIR$/apps/backend/views/admin/panel.volt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -113,20 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControllerBase.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/backend/controllers/ControllerBase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/backend/controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="-374">
               <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
               <folding>
                 <element signature="e#1269#1403#0#PHP" expanded="false" />
@@ -137,16 +119,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IngredientController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IngredientController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/backend/controllers/IngredientController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
               <folding>
                 <element signature="e#48#93#0#PHP" expanded="true" />
-                <element signature="e#482#805#0#PHP" expanded="false" />
-                <element signature="e#811#1357#0#PHP" expanded="false" />
-                <element signature="e#1363#2019#0#PHP" expanded="false" />
+                <element signature="e#586#909#0#PHP" expanded="false" />
+                <element signature="e#915#1461#0#PHP" expanded="false" />
+                <element signature="e#1467#2123#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -166,7 +148,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecipeController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RecipeController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/backend/controllers/RecipeController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -253,9 +235,9 @@
         <option value="$PROJECT_DIR$/apps/backend/controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/apps/backend/views/layouts/layout.volt" />
         <option value="$PROJECT_DIR$/apps/backend/views/admin/panel.volt" />
-        <option value="$PROJECT_DIR$/apps/backend/controllers/IngredientController.php" />
         <option value="$PROJECT_DIR$/apps/backend/controllers/MenuController.php" />
         <option value="$PROJECT_DIR$/apps/backend/controllers/RecipeController.php" />
+        <option value="$PROJECT_DIR$/apps/backend/controllers/IngredientController.php" />
       </list>
     </option>
   </component>
@@ -334,22 +316,6 @@
               <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="brecipes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brecipes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="brecipes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brecipes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="brecipes" type="b2602c69:ProjectViewProjectNode" />
@@ -452,12 +418,12 @@
       <workItem from="1513582047604" duration="23711000" />
       <workItem from="1513611905448" duration="1329000" />
       <workItem from="1513675451734" duration="729000" />
-      <workItem from="1514550989382" duration="2116000" />
+      <workItem from="1514550989382" duration="3576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105408000" />
+    <option name="totallyTimeSpent" value="106868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -750,6 +716,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/views/admin/showlogin.volt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/MenuController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#48#85#0#PHP" expanded="true" />
+            <element signature="e#341#954#0#PHP" expanded="false" />
+            <element signature="e#1941#2088#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/RecipeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#4662#5510#0#PHP" expanded="false" />
+            <element signature="e#4858#5050#1#PHP" expanded="false" />
+            <element signature="e#5102#5294#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/views/layouts/layout.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/services.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-833">
@@ -799,14 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/views/layouts/layout.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/backend/views/admin/panel.volt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -815,10 +813,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/views/admin/showlogin.volt.php">
+    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-374">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#1269#1403#0#PHP" expanded="false" />
+            <element signature="e#1409#1498#0#PHP" expanded="false" />
+            <element signature="e#2501#2537#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/ControllerBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -831,59 +841,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/ControllerBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#1269#1403#0#PHP" expanded="false" />
-            <element signature="e#1409#1498#0#PHP" expanded="false" />
-            <element signature="e#2501#2537#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/backend/controllers/IngredientController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
           <folding>
             <element signature="e#48#93#0#PHP" expanded="true" />
-            <element signature="e#482#805#0#PHP" expanded="false" />
-            <element signature="e#811#1357#0#PHP" expanded="false" />
-            <element signature="e#1363#2019#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/MenuController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#48#85#0#PHP" expanded="true" />
-            <element signature="e#341#954#0#PHP" expanded="false" />
-            <element signature="e#1941#2088#1#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/RecipeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#4662#5510#0#PHP" expanded="false" />
-            <element signature="e#4858#5050#1#PHP" expanded="false" />
-            <element signature="e#5102#5294#1#PHP" expanded="false" />
+            <element signature="e#586#909#0#PHP" expanded="false" />
+            <element signature="e#915#1461#0#PHP" expanded="false" />
+            <element signature="e#1467#2123#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
