@@ -8,6 +8,11 @@ use Multiple\Models\IngRec as IngRec;
 
 class IngredientController extends ControllerBase
 {
+    public function initialize()
+    {
+        $this->view->setTemplateAfter('layout');
+    }
+
     public function IndexAction()
     {
         $ingredients = Ingredient::find();

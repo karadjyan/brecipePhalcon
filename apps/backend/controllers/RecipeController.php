@@ -9,6 +9,11 @@ use Phalcon\Http\Response;
 
 class RecipeController extends ControllerBase
 {
+    public function initialize()
+    {
+        $this->view->setTemplateAfter('layout');
+    }
+
     public function IndexAction()
     {
         $this->assets->addCss('public/css/component.css');

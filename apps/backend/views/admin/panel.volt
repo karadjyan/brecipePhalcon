@@ -8,4 +8,3 @@
     <li><a href="{{ url('admin/panel/recipes') }}">recipes</a></li>
     <li><a href="{{ url('admin/panel/ingredients') }}">ingredients</a></li>
 </ul>
-

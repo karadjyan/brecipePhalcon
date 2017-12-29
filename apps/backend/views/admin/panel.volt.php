@@ -8,4 +8,3 @@
     <li><a href="<?= $this->url->get('admin/panel/recipes') ?>">recipes</a></li>
     <li><a href="<?= $this->url->get('admin/panel/ingredients') ?>">ingredients</a></li>
 </ul>
-

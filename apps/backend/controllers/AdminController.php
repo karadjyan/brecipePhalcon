@@ -8,6 +8,11 @@ use Phalcon\Http\Response;
 
 class AdminController extends ControllerBase
 {
+    public function initialize()
+    {
+        $this->view->setTemplateAfter('layout');
+    }
+
     public function ShowLoginAction()
     {
         return $this->view->setVars([]);
