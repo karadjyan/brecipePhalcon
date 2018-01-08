@@ -93,7 +93,6 @@ class AdminController extends ControllerBase
 
     public function UsersAction(){
         $users = Users::find(['columns' => 'id, name, email']);
-        //var_dump($users->toArray());exit;
         return $this->view->setVars(['users' => $users->toArray()]);
     }
 

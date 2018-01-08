@@ -17,7 +17,6 @@ class IngredientController extends ControllerBase
     public function IndexAction()
     {
         $ingredients = Ingredient::find();
-        $this->tag->prependTitle('Index of Ingredients - ');
         $this->view->setVars(['ingredients' => $ingredients->toArray()]);
     }
 

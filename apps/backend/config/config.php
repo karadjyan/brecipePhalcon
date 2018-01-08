@@ -9,7 +9,7 @@ return new Config(
             "host"     => "localhost",
             "username" => "root",
             "password" => "",
-            "name"     => "test",
+            "name"     => "brecipes",
         ],
         "application" => [
             "controllersDir" => __DIR__ . "/../controllers/",
