@@ -301,6 +301,39 @@ $di["url"] = function () {
 };
 
 $di->set(
+    'voltService',
+    function ($view, $di) {
+        $volt = new Volt($view, $di);
+
+        $volt->setOptions(
+            [
+                'compiledPath'      => '../app/compiled-templates/',
+                'compiledExtension' => '.compiled',
+            ]
+        );
+
+        return $volt;
+    }
+);
+
+$di->set(
+    'view',
+    function () {
+        $view = new View();
+
+        $view->setViewsDir('../app/views/');
+
+        $view->registerEngines(
+            [
+                '.volt' => 'voltService',
+            ]
+        );
+
+        return $view;
+    }
+);
+
+$di->set(
     'security',
     function () {
         $security = new Security();

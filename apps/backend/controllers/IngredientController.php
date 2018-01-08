@@ -11,19 +11,19 @@ class IngredientController extends ControllerBase
     public function initialize()
     {
         $this->view->setTemplateAfter('layout');
-        $this->tag->setTitle('bRecipes');
+        $this->view->setVar('title', 'Ingredients');
     }
 
     public function IndexAction()
     {
         $ingredients = Ingredient::find();
         $this->tag->prependTitle('Index of Ingredients - ');
-        return $this->view->setVars(['ingredients' => $ingredients->toArray()]);
-
+        $this->view->setVars(['ingredients' => $ingredients->toArray()]);
     }
 
     public function CreateAction()
     {
+        $this->view->setVar('title', 'Create ingredient');
         if ($this->request->isPost()) {
                 $ingredient = new Ingredient();
                 $ingredient->name = $this->request->getPost('name');
@@ -42,7 +42,7 @@ class IngredientController extends ControllerBase
                 $ingredient->update();
                 return $this->response->redirect('admin/panel/ingredients');
             }
-            return $this->view->setVars(['ingredient' => $ingredient->toArray()]);
+            $this->view->setVars(['title' => 'Edit '.$ingredient->name,'ingredient' => $ingredient->toArray()]);
         }
     }
 
