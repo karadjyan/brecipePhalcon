@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c120372c-d5dc-47b1-bc78-6c87627a4489" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/views/ingredient/index.volt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/views/layouts/layout.volt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/views/recipe/create.volt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/backend/views/recipe/index.volt.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/backend/controllers/IngredientController.php" afterPath="$PROJECT_DIR$/apps/backend/controllers/IngredientController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/backend/views/ingredient/create.volt" afterPath="$PROJECT_DIR$/apps/backend/views/ingredient/create.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/backend/views/ingredient/edit.volt" afterPath="$PROJECT_DIR$/apps/backend/views/ingredient/edit.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/backend/views/ingredient/index.volt" afterPath="$PROJECT_DIR$/apps/backend/views/ingredient/index.volt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/backend/views/layouts/layout.volt" afterPath="$PROJECT_DIR$/apps/backend/views/layouts/layout.volt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +25,8 @@
       <file leaf-file-name="services.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/services.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="65" column="16" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="16" />
+            <state relative-caret-position="92">
+              <caret line="297" column="17" lean-forward="false" selection-start-line="297" selection-start-column="13" selection-end-line="297" selection-end-column="17" />
               <folding>
                 <element signature="e#7#63#0#PHP" expanded="true" />
                 <element signature="e#65#88#0#PHP" expanded="true" />
@@ -30,8 +39,6 @@
                 <element signature="e#1917#2010#0#PHP" expanded="false" />
                 <element signature="e#2075#2174#0#PHP" expanded="false" />
                 <element signature="e#2239#2339#0#PHP" expanded="false" />
-                <element signature="e#2437#2626#0#PHP" expanded="false" />
-                <element signature="e#2468#2620#1#PHP" expanded="false" />
                 <element signature="e#2736#2842#0#PHP" expanded="false" />
                 <element signature="e#2906#3017#0#PHP" expanded="false" />
                 <element signature="e#3088#3192#0#PHP" expanded="false" />
@@ -66,7 +73,7 @@
       <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/backend/controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
+            <state relative-caret-position="-275">
               <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
               <folding>
                 <element signature="e#1269#1403#0#PHP" expanded="false" />
@@ -76,31 +83,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phinx.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phinx.yml">
+      <file leaf-file-name="create.volt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/backend/views/ingredient/create.volt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20180108103513_create_table_user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrations/20180108103513_create_table_user.php">
+      <file leaf-file-name="edit.volt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/backend/views/ingredient/edit.volt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="13" column="102" lean-forward="false" selection-start-line="13" selection-start-column="102" selection-end-line="13" selection-end-column="102" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.volt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/backend/views/ingredient/index.volt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="e#150#172#0#HTML" expanded="true" />
+                <element signature="e#3297#3396#0#Twig" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.volt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/backend/views/layouts/layout.volt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IngredientController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/backend/controllers/IngredientController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-              <folding />
+              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#48#93#0#PHP" expanded="true" />
+                <element signature="e#1450#2106#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IngredientSeeder.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/seeds/IngredientSeeder.php">
+      <file leaf-file-name="index.volt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/backend/views/recipe/index.volt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+            <state relative-caret-position="102">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="48" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -123,6 +166,8 @@
       <find>a</find>
       <find>text-de</find>
       <find>view</find>
+      <find>ingredient/delete</find>
+      <find>base</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,11 +182,8 @@
         <option value="$PROJECT_DIR$/apps/backend/controllers/SignupController.php" />
         <option value="$PROJECT_DIR$/apps/backend/controllers/ControllerBase.php" />
         <option value="$PROJECT_DIR$/apps/Models/Users.php" />
-        <option value="$PROJECT_DIR$/apps/backend/views/ingredient/edit.volt" />
-        <option value="$PROJECT_DIR$/apps/backend/views/ingredient/index.volt" />
         <option value="$PROJECT_DIR$/apps/Models/Recipe.php" />
         <option value="$PROJECT_DIR$/public/ingredients.js" />
-        <option value="$PROJECT_DIR$/apps/backend/views/ingredient/create.volt" />
         <option value="$PROJECT_DIR$/apps/backend/views/recipe/create.volt" />
         <option value="$PROJECT_DIR$/public/js/ingredients.js" />
         <option value="$PROJECT_DIR$/apps/Models/IngRec.php" />
@@ -165,10 +207,8 @@
         <option value="$PROJECT_DIR$/apps/backend/controllers/RecipeController.php" />
         <option value="$PROJECT_DIR$/config/services.php" />
         <option value="$PROJECT_DIR$/public/css/AdminLTE.css" />
-        <option value="$PROJECT_DIR$/apps/backend/views/layouts/layout.volt" />
         <option value="$PROJECT_DIR$/apps/backend/views/admin/panel.volt" />
         <option value="$PROJECT_DIR$/apps/backend/views/admin/users.volt" />
-        <option value="$PROJECT_DIR$/apps/backend/controllers/IngredientController.php" />
         <option value="$PROJECT_DIR$/apps/backend/controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/apps/backend/config/config.php" />
         <option value="$PROJECT_DIR$/apps/frontend/config/config.php" />
@@ -182,6 +222,11 @@
         <option value="$PROJECT_DIR$/phinx.yml" />
         <option value="$PROJECT_DIR$/db/seeds/UserSeeder.php" />
         <option value="$PROJECT_DIR$/db/seeds/IngredientSeeder.php" />
+        <option value="$PROJECT_DIR$/apps/backend/views/ingredient/index.volt" />
+        <option value="$PROJECT_DIR$/apps/backend/views/layouts/layout.volt" />
+        <option value="$PROJECT_DIR$/apps/backend/controllers/IngredientController.php" />
+        <option value="$PROJECT_DIR$/apps/backend/views/ingredient/create.volt" />
+        <option value="$PROJECT_DIR$/apps/backend/views/ingredient/edit.volt" />
       </list>
     </option>
   </component>
@@ -228,6 +273,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,18 +290,46 @@
             <path>
               <item name="brecipes" type="b2602c69:ProjectViewProjectNode" />
               <item name="brecipes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="brecipes" type="b2602c69:ProjectViewProjectNode" />
               <item name="brecipes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="db" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="brecipes" type="b2602c69:ProjectViewProjectNode" />
               <item name="brecipes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="db" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="seeds" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="brecipes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brecipes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ingredient" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="brecipes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brecipes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="brecipes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brecipes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="apps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="recipe" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="brecipes" type="b2602c69:ProjectViewProjectNode" />
@@ -265,8 +340,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,26 +409,26 @@
       <workItem from="1514550989382" duration="4345000" />
       <workItem from="1515397297131" duration="8364000" />
       <workItem from="1515406820801" duration="3332000" />
-      <workItem from="1515510197808" duration="2296000" />
+      <workItem from="1515510197808" duration="3081000" />
+      <workItem from="1515568020659" duration="7424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121629000" />
+    <option name="totallyTimeSpent" value="129838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34039333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20196672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20499243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42553192" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42553192" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -402,18 +475,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/backend/views/menu/index.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/frontend/Module.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="26" column="80" lean-forward="false" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -487,25 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/RecipeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#4662#5510#0#PHP" expanded="false" />
-            <element signature="e#4858#5050#1#PHP" expanded="false" />
-            <element signature="e#5102#5294#1#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/ControllerBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/backend/views/admin/showlogin.volt.php" />
     <entry file="file://$PROJECT_DIR$/public/css/AdminLTE.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -533,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/views/layouts/layout.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="56" column="97" lean-forward="false" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/backend/views/admin/panel.volt.php" />
     <entry file="file://$PROJECT_DIR$/apps/backend/views/admin/panel.volt">
       <provider selected="true" editor-type-id="text-editor">
@@ -562,27 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/views/ingredient/create.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/views/ingredient/edit.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/views/ingredient/index.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/backend/views/recipe/create.volt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -597,13 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/views/recipe/index.volt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-355">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="43" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/backend/views/admin/showregister.volt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-182">
@@ -615,17 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/IngredientController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="13" selection-end-column="52" />
-          <folding>
-            <element signature="e#48#93#0#PHP" expanded="true" />
-            <element signature="e#1498#2154#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,25 +700,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="82" column="32" lean-forward="true" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds/UserSeeder.php" />
+    <entry file="file://$PROJECT_DIR$/db/seeds/IngredientSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/AdminController.php">
+    <entry file="file://$PROJECT_DIR$/db/migrations/20180108103513_create_table_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phinx.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/ControllerBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/RecipeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1363">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="25" selection-end-column="66" />
           <folding>
-            <element signature="e#1269#1403#0#PHP" expanded="false" />
-            <element signature="e#2501#2537#0#PHP" expanded="false" />
+            <element signature="e#4662#5510#0#PHP" expanded="false" />
+            <element signature="e#4858#5050#1#PHP" expanded="false" />
+            <element signature="e#5102#5294#1#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/views/recipe/index.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="48" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="65" column="16" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="16" />
+        <state relative-caret-position="92">
+          <caret line="297" column="17" lean-forward="false" selection-start-line="297" selection-start-column="13" selection-end-line="297" selection-end-column="17" />
           <folding>
             <element signature="e#7#63#0#PHP" expanded="true" />
             <element signature="e#65#88#0#PHP" expanded="true" />
@@ -737,8 +779,6 @@
             <element signature="e#1917#2010#0#PHP" expanded="false" />
             <element signature="e#2075#2174#0#PHP" expanded="false" />
             <element signature="e#2239#2339#0#PHP" expanded="false" />
-            <element signature="e#2437#2626#0#PHP" expanded="false" />
-            <element signature="e#2468#2620#1#PHP" expanded="false" />
             <element signature="e#2736#2842#0#PHP" expanded="false" />
             <element signature="e#2906#3017#0#PHP" expanded="false" />
             <element signature="e#3088#3192#0#PHP" expanded="false" />
@@ -769,42 +809,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/console/Application.php">
+    <entry file="file://$PROJECT_DIR$/apps/backend/views/layouts/layout.volt%%e%%.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="82" column="32" lean-forward="true" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phinx.yml">
+    <entry file="file://$PROJECT_DIR$/apps/backend/views/layouts/layout.volt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        <state relative-caret-position="68">
+          <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds/UserSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrations/20180108103513_create_table_user.php">
+    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/IngredientController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#48#93#0#PHP" expanded="true" />
+            <element signature="e#1450#2106#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding>
+            <element signature="e#1269#1403#0#PHP" expanded="false" />
+            <element signature="e#2501#2537#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/views/ingredient/index.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#150#172#0#HTML" expanded="true" />
+            <element signature="e#3297#3396#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/views/ingredient/create.volt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds/IngredientSeeder.php">
+    <entry file="file://$PROJECT_DIR$/apps/backend/views/ingredient/edit.volt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        <state relative-caret-position="42">
+          <caret line="13" column="102" lean-forward="false" selection-start-line="13" selection-start-column="102" selection-end-line="13" selection-end-column="102" />
           <folding />
         </state>
       </provider>

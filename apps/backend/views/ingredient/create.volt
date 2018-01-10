@@ -1,16 +1,34 @@
-<h2>ingredient Register</h2>
+{% extends "layouts/layout.volt" %}
 
-<?php echo $this->tag->form("admin/ingredient/add"); ?>
+{% block styles %}{% endblock %}
 
-<input type='hidden' name='<?php echo $this->security->getTokenKey() ?>'
-       value='<?php echo $this->security->getToken() ?>'/>
+{% block content %}
+<div class="box box-primary">
+    <div class="box-header with-border">
+        <h3 class="box-title">Create ingredient</h3>
+        <div class="box-tools pull-right">
 
-<p>
-    <label for="email">Name</label>
-    <?php echo $this->tag->textField("name"); ?>
-</p>
-<p>
-    <?php echo $this->tag->submitButton("Create"); ?>
-</p>
+        </div>
+        <!-- /.box-tools -->
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+        <?php echo $this->tag->form("admin/ingredient/add"); ?>
 
-</form>
+        <input type='hidden' name='<?php echo $this->security->getTokenKey() ?>'
+               value='<?php echo $this->security->getToken() ?>'/>
+
+        <p>
+            <label for="email">Name</label>
+            <?php echo $this->tag->textField("name"); ?>
+        </p>
+        <p>
+            {{ submit_button("Create", 'class':'btn btn-success')}}
+
+        </p>
+
+        </form>
+    </div>
+</div>
+{% endblock %}
+{% block scripts %}{% endblock %}

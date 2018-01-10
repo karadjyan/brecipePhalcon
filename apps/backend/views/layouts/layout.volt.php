@@ -10,6 +10,7 @@
         <link rel='stylesheet' href='/brecipes/public/css/AdminLTE.min.css' />
         <link rel="stylesheet" href="/brecipes/public/css/skins/skin-blue.min.css" />
         <script src="https://use.fontawesome.com/486ca9e286.js"></script>
+        
     </head>
     <body class="hold-transition skin-blue sidebar-mini">
         <div class="wrapper">
@@ -17,7 +18,7 @@
             <header class="main-header">
 
                 <!-- Logo -->
-                <a href="<?= $this->url->get('') ?>" class="logo">
+                <a href="<?= $this->url->get('admin') ?>" class="logo">
                     <!-- mini logo for sidebar mini 50x50 pixels -->
                     <span class="logo-mini"><i class="fa fa-cutlery" aria-hidden="true"></i><b> bR</b></span>
                     <!-- logo for regular state and mobile devices -->
@@ -36,7 +37,7 @@
                             <!-- Control Sidebar Toggle Button -->
                             <li>
                                 <!-- Authentication Links -->
-                                <a href="<?= $this->url->get('admin/logout') ?>">logout</a>
+                                <a href="<?= $this->url->get('admin/logout') ?>" class="btn btn-danger">logout</a>
                             </li>
                         </ul>
                     </div>
@@ -64,14 +65,15 @@
             <div class="content-wrapper">
                 <!-- Main content -->
                 <section class="content">
-                    <?= $this->getContent() ?>
+                    
                 </section>
                 <!-- /.content -->
             </div>
             <!-- /.content-wrapper -->
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="/brecipes/public/js/bootstrap/bootstrap.js"></script>
-        <script src="/brecipes/public/js/app.min.js"></script>
+        <script src="<?= $this->url->get('public/js/bootstrap/bootstrap.js') ?>"></script>
+        <script src="<?= $this->url->get('public/js/app.min.js') ?>"></script>
+        
     </body>
 </html>

@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+a:7:{i:0;s:721:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>{{ title }} - bRecipe</title>
+        <title><?= $title ?> - bRecipe</title>
         <link href="/brecipes/public/css/bootstrap/bootstrap.css" rel="stylesheet">
         <link href="/brecipes/public/css/side.css" rel="stylesheet">
         <link rel='stylesheet' href='/brecipes/public/css/AdminLTE.min.css' />
         <link rel="stylesheet" href="/brecipes/public/css/skins/skin-blue.min.css" />
         <script src="https://use.fontawesome.com/486ca9e286.js"></script>
-        {% block  styles %}{% endblock %}
+        ";s:6:"styles";N;i:1;s:2946:"
     </head>
     <body class="hold-transition skin-blue sidebar-mini">
         <div class="wrapper">
@@ -18,7 +18,7 @@
             <header class="main-header">
 
                 <!-- Logo -->
-                <a href="{{ url('admin') }}" class="logo">
+                <a href="<?= $this->url->get('admin') ?>" class="logo">
                     <!-- mini logo for sidebar mini 50x50 pixels -->
                     <span class="logo-mini"><i class="fa fa-cutlery" aria-hidden="true"></i><b> bR</b></span>
                     <!-- logo for regular state and mobile devices -->
@@ -65,15 +65,15 @@
             <div class="content-wrapper">
                 <!-- Main content -->
                 <section class="content">
-                    {% block content %}{% endblock %}
+                    ";s:7:"content";N;i:2;s:420:"
                 </section>
                 <!-- /.content -->
             </div>
             <!-- /.content-wrapper -->
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="{{ url('public/js/bootstrap/bootstrap.js') }}"></script>
-        <script src="{{ url('public/js/app.min.js') }}"></script>
-        {% block  scripts %}{% endblock %}
+        <script src="<?= $this->url->get('public/js/bootstrap/bootstrap.js') ?>"></script>
+        <script src="<?= $this->url->get('public/js/app.min.js') ?>"></script>
+        ";s:7:"scripts";N;i:3;s:22:"
     </body>
-</html>
+</html>";}
