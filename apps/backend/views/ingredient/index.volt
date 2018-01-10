@@ -52,7 +52,7 @@
                             <td>{{ ingredient['name'] }}</td>
                             <td>
                                 <p>
-                                    <button type="button" class="btn btn-danger btn-sm" title="Delete" data-toggle="modal" data-target="#modal-danger" onclick="showFormDelete({{ url('admin/ingredient/delete/') }}, {{ingredient['id']}});">
+                                    <button type="button" class="btn btn-danger btn-sm" title="Delete" data-toggle="modal" data-target="#modal-danger" onclick="showFormDelete('/brecipes/admin/ingredient/delete/', {{ingredient['id']}});">
                                         <i class="fa fa-trash-o" aria-hidden="true"></i>
                                     </button>
 

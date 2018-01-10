@@ -11,27 +11,17 @@ class RecipeController extends ControllerBase
 {
     public function initialize()
     {
-        $this->view->setTemplateAfter('layout');
+        $this->view->setVar('title', 'Recipes');
     }
 
     public function IndexAction()
     {
-        $this->assets->addCss('public/css/component.css');
-        $this->assets->addJs('public/js/jquery.min.js');
-        $this->assets->addJs('public/js/deleteform.js');
-        $this->assets->addJs('public/js/modernizr.custom.js');
-        $this->assets->addJs('public/js/classie.js');
-        $this->assets->addJs('public/js/modalEffects.js');
-        $this->assets->addJs('public/js/cssParser.js');
-        $this->assets->addJs('public/js/css-filters-polyfill.js');
         $recipes = Recipe::find();
         return $this->view->setVars(['recipes' => $recipes->toArray()]);
     }
 
     public function CreateAction()
     {
-        $this->assets->addJs('/public/js/jquery.min.js');
-        $this->assets->addJs('/public/js/ingredients.js');
         if ($this->request->isPost()) {
             $ingredients            = $this->request->getPost('ingredients');
             $counts                 = $this->request->getPost('count_ing');

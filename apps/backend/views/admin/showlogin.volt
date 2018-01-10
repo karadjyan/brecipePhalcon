@@ -1,22 +1,40 @@
-<h2>Admin Login</h2>
+{% extends "layouts/layout.volt" %}
 
-<?php echo $this->tag->form("admin/login"); ?>
+{% block styles %}{% endblock %}
 
-<input type='hidden' name='<?php echo $this->security->getTokenKey() ?>'
-       value='<?php echo $this->security->getToken() ?>'/>
+{% block content %}
+<div class="box box-primary">
+    <div class="box-header with-border">
+        <h3 class="box-title">Admin login</h3>
+        <div class="box-tools pull-right"></div>
+        <!-- /.box-tools -->
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
 
-<p>
-    <label for="email">E-Mail</label>
-    <?php echo $this->tag->textField("email"); ?>
-</p>
+        <?php echo $this->tag->form("admin/login"); ?>
 
-<p>
-    <label for="password">Password</label>
-    <?php echo $this->tag->passwordField("password"); ?>
-</p>
+        <input type='hidden' name='<?php echo $this->security->getTokenKey() ?>'
+               value='<?php echo $this->security->getToken() ?>'/>
 
-<p>
-    <?php echo $this->tag->submitButton("Login"); ?>
-</p>
+        <p>
+            <label for="email">E-Mail</label>
+            <?php echo $this->tag->textField("email"); ?>
+        </p>
 
-</form>
+        <p>
+            <label for="password">Password</label>
+            <?php echo $this->tag->passwordField("password"); ?>
+        </p>
+
+        <p>
+            <?php echo $this->tag->submitButton("Login"); ?>
+        </p>
+
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}

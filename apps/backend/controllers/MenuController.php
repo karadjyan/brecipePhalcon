@@ -11,7 +11,7 @@ class MenuController extends ControllerBase
 {
     public function initialize()
     {
-        $this->view->setTemplateAfter('layout');
+        $this->view->setVar('title', 'Menus');
     }
 
     public function IndexAction()

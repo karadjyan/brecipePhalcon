@@ -5,10 +5,10 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>{{ title }} - bRecipe</title>
-        <link href="/brecipes/public/css/bootstrap/bootstrap.css" rel="stylesheet">
-        <link href="/brecipes/public/css/side.css" rel="stylesheet">
-        <link rel='stylesheet' href='/brecipes/public/css/AdminLTE.min.css' />
-        <link rel="stylesheet" href="/brecipes/public/css/skins/skin-blue.min.css" />
+        <link href="{{ url('public/css/bootstrap/bootstrap.css') }}" rel="stylesheet">
+        <link href="{{ url('public/css/side.css') }}" rel="stylesheet">
+        <link rel='stylesheet' href='{{ url("public/css/AdminLTE.min.css")}}' />
+        <link rel="stylesheet" href="{{ url('public/css/skins/skin-blue.min.css') }}" />
         <script src="https://use.fontawesome.com/486ca9e286.js"></script>
         {% block  styles %}{% endblock %}
     </head>
@@ -18,7 +18,7 @@
             <header class="main-header">
 
                 <!-- Logo -->
-                <a href="{{ url('admin') }}" class="logo">
+                <a href="{{ url('admin/panel') }}" class="logo">
                     <!-- mini logo for sidebar mini 50x50 pixels -->
                     <span class="logo-mini"><i class="fa fa-cutlery" aria-hidden="true"></i><b> bR</b></span>
                     <!-- logo for regular state and mobile devices -->
